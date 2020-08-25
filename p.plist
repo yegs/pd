@@ -17,13 +17,13 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.phemex.submit</string>
+				<string>com.shengba.www</string>
 				<key>bundle-version</key>
 				<string>1.0.0</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>Phemex</string>
+				<string>Rub</string>
 			</dict>
 		</dict>
 	</array>
