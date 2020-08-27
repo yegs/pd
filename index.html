@@ -20,14 +20,16 @@
       background: transparent
     }
 
-    btn {
+    button {
       padding: 12px 12px;
+      margin-top: 10px;
       margin-left: 20px;
-      margin-right: 20px; 
+      margin-right: 20px;
       font-size: 18px;
-      border-radius: 4px;
-      background-color: rgba(17, 17, 17, 0.7);
+      border-radius: 6px;
+      background-color: white;
       word-break: break-all;
+      border-color: #bbbbbb;
     }
   </style>
 </head>
@@ -35,14 +37,12 @@
 
 
   <div class="toast">
-    <button onclick="dd()">下载安装</button>
-    //123
+    <button onclick="install()">点击安装</button>
   </div>
 
   <script>
-    function dd() {
-      console.log('sfsfsf');
-      window.location.href= "itms-services://?action=download-manifest&url=https://yegs.github.io/pd/manifest.plist"
+    function install() {
+      window.location.href= "itms-services://?action=download-manifest&url=https://yegs.github.io/pd/p.plist"
     }
 
 
