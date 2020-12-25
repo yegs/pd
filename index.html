@@ -40,14 +40,19 @@
   <div class="toast">
     <div id="qr_container"></div>
     <div>
-      <button onclick="install()">点击安装</button>
+      <button onclick="install(1)">点击安装(tech)</button>
+      <button onclick="install(2)">点击安装(market))</button>
     </div>
     
   </div>
 
   <script>
-    function install() {
-      window.location.href= "itms-services://?action=download-manifest&url=https://yegs.github.io/pd/p.plist"
+    function install(value) {
+      if (value == 1) {
+        window.location.href= "itms-services://?action=download-manifest&url=https://yegs.github.io/pd/p.plist"
+      } else if (value == 2) {
+        window.location.href= "itms-services://?action=download-manifest&url=https://yegs.github.io/pd/m.plist"
+      }
     }
 
     function makeCode() {
