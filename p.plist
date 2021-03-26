@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>http://10.10.112.247/app/ipa/Runner.ipa</string>
+					<string>http://10.10.112.75/app/ipa/Runner.ipa</string>
 				</dict>
 			</array>
 			<key>metadata</key>
